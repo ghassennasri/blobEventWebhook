@@ -2,7 +2,7 @@
 # Deploy Flask app to Azure Web App
 # Usage: ./deploy_webapp.sh <webapp-name>
 
-# Source the centralized configuration
+# configuration
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/config.sh"
 

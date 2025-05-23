@@ -9,7 +9,7 @@ def consume_events():
     'security.protocol': 'SASL_SSL',
     'sasl.mechanisms': 'PLAIN',
     'sasl.username': os.environ.get('KAFKA_API_KEY', 'DPMLFBCUZVRUTSLU'),
-    'sasl.password': os.environ.get('KAFKA_API_SECRET', 'V8EkN7ucSE55FuwuOCE53x24i0rMAYpUHFzwJIX0d7yXIJuA'),
+    'sasl.password': os.environ.get('KAFKA_API_SECRET', 'sssssssssss'),
     'group.id': 'blob-event-consumer',
     'auto.offset.reset': 'earliest'
     }

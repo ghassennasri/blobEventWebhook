@@ -23,7 +23,7 @@ get_storage_name() {
 # Kafka Configuration
 export KAFKA_BOOTSTRAP_SERVERS="pkc-5roon.us-east-1.aws.confluent.cloud:9092"
 export KAFKA_API_KEY="DPMLFBCUZVRUTSLU"
-export KAFKA_API_SECRET="V8EkN7ucSE55FuwuOCE53x24i0rMAYpUHFzwJIX0d7yXIJuA/FB5Fhn2ohOBPqUn"
+export KAFKA_API_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 export KAFKA_TOPIC="gna-blob-events"
 
 # Helper function to ensure Azure CLI is authenticated
