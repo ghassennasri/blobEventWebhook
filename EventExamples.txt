@@ -1,0 +1,48 @@
+{
+  "topic": "/subscriptions/4beddd21-16a1-4ddc-9f4d-d4f5d9de465a/resourceGroups/gna-blob-to-kafka-rg/providers/Microsoft.Storage/storageAccounts/gnablobstorage71f53f03",
+  "subject": "/blobServices/default/containers/gnasri-container/blobs/Ghassen_Nasri.xlsx",
+  "eventType": "Microsoft.Storage.BlobCreated",
+  "id": "4f56f839-d01e-0069-25f7-cbfaa106746b",
+  "data": {
+    "api": "PutBlob",
+    "clientRequestId": "0a294438-4480-4bd9-888e-ad7ddfa3f01d",
+    "requestId": "4f56f839-d01e-0069-25f7-cbfaa1000000",
+    "eTag": "0x8DD9A0F1B7035B5",
+    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "contentLength": 4477,
+    "blobType": "BlockBlob",
+    "accessTier": "Default",
+    "url": "https://gnablobstorage71f53f03.blob.core.windows.net/gnasri-container/Ghassen_Nasri.xlsx",
+    "sequencer": "0000000000000000000000000000002200000000000ed774",
+    "storageDiagnostics": {
+      "batchId": "783311a8-f006-0051-00f7-cb5e61000000"
+    }
+  },
+  "dataVersion": "",
+  "metadataVersion": "1",
+  "eventTime": "2025-05-23T15:33:03.2004021Z"
+}
+
+
+{
+  "topic": "/subscriptions/4beddd21-16a1-4ddc-9f4d-d4f5d9de465a/resourceGroups/gna-blob-to-kafka-rg/providers/Microsoft.Storage/storageAccounts/gnablobstorage71f53f03",
+  "subject": "/blobServices/default/containers/gnasri-container/blobs/Ghassen_Nasri.xlsx",
+  "eventType": "Microsoft.Storage.BlobDeleted",
+  "id": "4f56fddb-d01e-0069-41f8-cbfaa1062311",
+  "data": {
+    "api": "DeleteBlob",
+    "requestId": "4f56fddb-d01e-0069-41f8-cbfaa1000000",
+    "eTag": "0x8DD9A0F2293A9AF",
+    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "contentLength": 4477,
+    "blobType": "BlockBlob",
+    "url": "https://gnablobstorage71f53f03.blob.core.windows.net/gnasri-container/Ghassen_Nasri.xlsx",
+    "sequencer": "0000000000000000000000000000002200000000000ed7c7",
+    "storageDiagnostics": {
+      "batchId": "78333138-f006-0051-00f8-cb5e61000000"
+    }
+  },
+  "dataVersion": "",
+  "metadataVersion": "1",
+  "eventTime": "2025-05-23T15:33:15.1767983Z"
+}
